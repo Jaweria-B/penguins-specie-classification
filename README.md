@@ -19,6 +19,9 @@ To use the Palmer Penguins Prediction App, follow these steps:
 3. Run the Streamlit app using the command `streamlit run app.py`.
 4. Access the app in your web browser and start making predictions.
 
+## Demo
+[Live Demo](https://penguins-classification-jb.streamlit.app/)
+
 ### Input Methods
 
 1. **Upload CSV File:**
