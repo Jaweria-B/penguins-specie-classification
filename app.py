@@ -80,24 +80,13 @@ st.write("""
 ## About Penguins
 
 ### Adelie Penguins
-Adelie penguins are one of the three species included in the Palmer penguins dataset. Here are some key characteristics:
-- **Habitat**: Adelie penguins primarily inhabit the coastal areas of Antarctica.
-- **Appearance**: They have a black head and back with a white belly, and they are the smallest of the three species.
-- **Behavior**: Adelie penguins are known for their curious and energetic behavior, often forming large breeding colonies.
+Adelie penguins are known for their small size and energetic behavior. They primarily inhabit coastal areas of Antarctica.
 
 ### Chinstrap Penguins
-Chinstrap penguins are another species found in the Palmer penguins dataset. Here's what you need to know about them:
-- **Habitat**: Chinstrap penguins are found in the Antarctic Peninsula and nearby islands.
-- **Appearance**: They have a distinctive black line under their chin, giving them their name. They are medium-sized penguins.
-- **Behavior**: Chinstrap penguins are agile swimmers and often hunt for fish, squid, and krill in the waters surrounding their colonies.
+Chinstrap penguins are medium-sized penguins with a distinctive black line under their chin. They are found in the Antarctic Peninsula and nearby islands.
 
 ### Gentoo Penguins
-Gentoo penguins are the third species included in the Palmer penguins dataset. Here are some facts about them:
-- **Habitat**: Gentoo penguins inhabit various locations around the Antarctic Peninsula and nearby islands.
-- **Appearance**: They have a white patch above their eyes and a wide orange beak. They are the largest of the three species.
-- **Behavior**: Gentoo penguins are known for their loud vocalizations and elaborate courtship rituals. They build nests using rocks and pebbles and can dive to great depths in search of food.
-
-For more detailed information about each penguin species and their habitats, behaviors, and conservation status, please refer to reputable sources such as scientific journals and conservation organizations.
+Gentoo penguins have a distinctive white stripe across their heads. They are known for their widespread distribution in the Antarctic region.
 """)
 
 # link to GitHub README file
