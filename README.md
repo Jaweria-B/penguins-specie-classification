@@ -10,6 +10,44 @@ This repository contains a Streamlit web application for predicting the species 
 
 The Palmer Penguins Prediction App is designed to provide users with a user-friendly interface for predicting the species of Palmer penguins. Users can input features such as the island, sex, bill dimensions, flipper length, and body mass, either manually or by uploading a CSV file. The app then applies a trained Random Forest Classifier to make predictions and displays the predicted penguin species along with prediction probabilities.
 
+## Usage
+
+To use the Palmer Penguins Prediction App, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Install the required Python packages by running `pip install -r requirements.txt`.
+3. Run the Streamlit app using the command `streamlit run app.py`.
+4. Access the app in your web browser and start making predictions.
+
+### Input Methods
+
+1. **Upload CSV File:**
+   - Users can upload a CSV file containing penguin data. The file must include columns for island, sex, bill length (mm), bill depth (mm), flipper length (mm), and body mass (g).
+
+2. **Manual Input:**
+   - Alternatively, users can manually select input parameters using the sidebar. They can choose the island from options including Biscoe, Dream, and Torgersen. The sex can be selected as male or female. Bill length, bill depth, flipper length, and body mass can be adjusted using sliders.
+
+### Input Parameters
+
+- **Island:**
+  - Users can select the island where the penguin was observed. Options include Biscoe, Dream, and Torgersen.
+
+- **Sex:**
+  - Users can specify the sex of the penguin as male or female.
+
+- **Bill Length (mm):**
+  - Users can adjust the bill length of the penguin using a slider. The bill length is measured in millimeters (mm).
+
+- **Bill Depth (mm):**
+  - Users can adjust the bill depth of the penguin using a slider. The bill depth is measured in millimeters (mm).
+
+- **Flipper Length (mm):**
+  - Users can adjust the flipper length of the penguin using a slider. The flipper length is measured in millimeters (mm).
+
+- **Body Mass (g):**
+  - Users can adjust the body mass of the penguin using a slider. The body mass is measured in grams (g).
+
+
 ## Data Source
 
 The dataset used in this project is obtained from the [palmerpenguins library](https://github.com/allisonhorst/palmerpenguins) in R by Allison Horst. This dataset contains information about penguins collected by Dr. Kristen Gorman and the Palmer Station, Antarctica LTER. It includes features such as species, island, bill dimensions, flipper length, body mass, and sex.
@@ -45,14 +83,6 @@ For more detailed information about each penguin species and their habitats, beh
 - **Encoding of Ordinal Features**:
   - The encoding of ordinal features is based on the methods described in the Kaggle notebook titled [Penguin Dataset - EDA, Classification, and Clustering](https://www.kaggle.com/pratik1120/penguin-dataset-eda-classification-and-clustering).
 
-## Usage
-
-To use the Palmer Penguins Prediction App, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Install the required Python packages by running `pip install -r requirements.txt`.
-3. Run the Streamlit app using the command `streamlit run app.py`.
-4. Access the app in your web browser and start making predictions.
 
 ## Acknowledgments
 
