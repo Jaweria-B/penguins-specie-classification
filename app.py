@@ -75,20 +75,6 @@ st.write(penguins_species[prediction])
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
 
-# Penguin information section
-st.write("""
-## About Penguins
-
-### Adelie Penguins
-Adelie penguins are known for their small size and energetic behavior. They primarily inhabit coastal areas of Antarctica.
-
-### Chinstrap Penguins
-Chinstrap penguins are medium-sized penguins with a distinctive black line under their chin. They are found in the Antarctic Peninsula and nearby islands.
-
-### Gentoo Penguins
-Gentoo penguins have a distinctive white stripe across their heads. They are known for their widespread distribution in the Antarctic region.
-""")
-
 # link to GitHub README file
 st.write("For more information about the Palmer penguins dataset and how the prediction app works, please check out the [GitHub README](https://github.com/Jaweria-B/penguins-specie-classification) file.")
 
