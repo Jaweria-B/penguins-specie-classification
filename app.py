@@ -100,4 +100,9 @@ Gentoo penguins are the third species included in the Palmer penguins dataset. H
 For more detailed information about each penguin species and their habitats, behaviors, and conservation status, please refer to reputable sources such as scientific journals and conservation organizations.
 """)
 
+# link to GitHub README file
+st.write("For more information about the Palmer penguins dataset and how the prediction app works, please check out the [GitHub README](https://github.com/Jaweria-B/penguins-specie-classification) file.")
 
+st.write("""
+Made By **_Jaweria Batool_**
+""")
